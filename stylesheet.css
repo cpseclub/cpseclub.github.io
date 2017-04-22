@@ -1,20 +1,11 @@
 body {
 	margin: 0px;
-	background-color: #e6e6e6;
-}
-
-img.cornerlogo {
-	float: left;
-	border-style: solid;
-	border-width: 18px;
-	border-color: #5900b3;
 }
 
 div.topnav {
 	margin-left: 200px;
-	padding: 0;
     overflow: hidden;
-    background-color: #5900b3;
+    background-color: #00b359;
 }
 
 div.topnav a {
@@ -29,11 +20,11 @@ div.topnav a {
 }
 
 div.topnav a:hover {
-    background-color: #ff471a;
+    background-color: #66b3ff;
 }
 
 div.topnav a.active {
-    background-color: #4CAF50;
+    background-color: #66b3ff;
     color: white;
 }
 
@@ -41,7 +32,7 @@ div.sidenav {
 	clear: left;
 	float: left;
 	width: 236px;
-    background-color: #5900b3;
+    background-color: #00cc66;
 }
 
 div.sidenav a {
@@ -55,16 +46,16 @@ div.sidenav a {
 }
 
 div.sidenav a:hover {
-    background-color: #ff471a;
+    background-color: #66b3ff;
 }
 
 div.sidenav a.active {
-    background-color: #4CAF50;
+    background-color: #66b3ff;
     color: white;
 }
 
 h1 {
-	margin-left: 212px;
+	margin-left: 256px;
 	font-family: "Century Gothic", sans-serif;
 	font-weight: normal;
 }
@@ -72,4 +63,15 @@ h1 {
 p {
 	font-family: "Arial Verdana", sans-serif;
 		font-weight: normal;
+}
+
+img.cornerlogo {
+	float: left;
+	border-style: solid;
+	border-width: 18px;
+	border-color: #00cc66;
+}
+
+img.members {
+	margin-left: 24px;
 }
