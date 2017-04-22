@@ -3,6 +3,13 @@ body {
 	background-color: #e6e6e6;
 }
 
+img.cornerlogo {
+	float: left;
+	border-style: solid;
+	border-width: 18px;
+	border-color: #5900b3;
+}
+
 div.topnav {
 	margin-left: 200px;
 	padding: 0;
@@ -31,22 +38,19 @@ div.topnav a.active {
 }
 
 div.sidenav {
+	clear: left;
 	float: left;
-	width: 200px;
-	margin-top: 12px;
-	overflow: hidden;
-	padding: 0;
+	width: 236px;
     background-color: #5900b3;
 }
 
 div.sidenav a {
-	float: left;
 	font-family: "Arial Verdana", sans-serif;
 	color: white;
 	font-size: 25px;
     display: block;
+	padding: 6px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
