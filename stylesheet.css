@@ -60,9 +60,21 @@ h1 {
 	font-weight: normal;
 }
 
+h2 {
+	float: right;
+	margin-top: 42px;
+	margin-right: 130px;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: normal;
+}
+
 p {
+	float: right;
+	clear: left;
+	margin-right: 100px;
+	text-align: center;
 	font-family: "Arial Verdana", sans-serif;
-		font-weight: normal;
+	font-weight: normal;
 }
 
 img.cornerlogo {
