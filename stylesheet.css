@@ -55,12 +55,14 @@ h1 {
 }
 
 div.intro {
+	border: 20px #dfeaf1;
+	background-color: #dfeaf1;
 	padding-left: 24px;
 	display: inline-block;
 	vertical-align: top;
 	margin-left:auto;
-    margin-right:auto;
-    width:300px;
+    	margin-right:auto;
+    	width:300px;
 }
 
 h2 {
@@ -82,6 +84,7 @@ img.cornerlogo {
 }
 
 img.members {
+	border: 20px #dfeaf1;
 	margin-left: 260px;
 	height: auto;
 	width: 50%;
