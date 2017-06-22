@@ -34,6 +34,28 @@ ul.sidenav {
     overflow: auto;
 }
 
+div.pagenav {
+	margin-left: 236px;
+    overflow: hidden;
+    background-color: #e6e6e6;
+}
+
+div.pagenav a {
+	margin-left: 40px;
+	float: left;
+	font-family: "Arial Verdana", sans-serif;
+	color: black;
+	font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.pagenav a:hover {
+    background-color: #66b3ff;
+}
+
 li a {
 	font-family: "Arial Verdana", sans-serif;
 	color: white;
@@ -55,17 +77,26 @@ h1 {
 }
 
 div.intro {
-	padding-left: 24px;
+	background-color: #e6e6e6;
+	border-style: solid;
+	border-width: 18px;
+	border-color: #e6e6e6;
 	display: inline-block;
 	vertical-align: top;
-	margin-left:auto;
-    	margin-right:auto;
-    	width:300px;
+	margin-left: 20px;
+    margin-right: auto;
+    width: 300px;
 }
 
 h2 {
 	text-align: center;
 	font-family: "Century Gothic", sans-serif;
+	font-weight: normal;
+}
+
+h3 {
+	margin-left: 256px;
+	font-family: "Arial Verdana", sans-serif;
 	font-weight: normal;
 }
 
@@ -75,14 +106,14 @@ p.body {
 	font-weight: normal;
 }
 
-p.intro2 {
-	background-color: #e6e6e6;
-	border-style: solid;
-	border-width: 18px;
-	border-color: #e6e6e6;
+p.intro {
 	text-align: center;
 	font-family: "Century Gothic", sans-serif;
 	font-weight: normal;
+}
+
+div.body {
+margin-left: 230px;
 }
 
 img.cornerlogo {
@@ -98,4 +129,8 @@ img.members {
 	margin-left: 260px;
 	height: auto;
 	width: 50%;
+}
+
+img.secbanner {
+	width: 100%;
 }
