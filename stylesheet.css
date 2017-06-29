@@ -100,6 +100,11 @@ h3 {
 	font-weight: normal;
 }
 
+p {
+	font-family: "Arial Verdana", sans-serif;
+	font-weight: normal;
+}
+
 p.body {
 	margin-left: 256px;
 	font-family: "Arial Verdana", sans-serif;
@@ -112,8 +117,12 @@ p.intro {
 	font-weight: normal;
 }
 
-div.body {
+div.banner {
 margin-left: 230px;
+}
+
+div.margin {
+margin-left: 256px;
 }
 
 img.cornerlogo {
@@ -127,6 +136,14 @@ img.members {
 	border-width: 18px;
 	border-color: #e6e6e6;
 	margin-left: 260px;
+	height: auto;
+	width: 50%;
+}
+
+img.news {
+	border-style: solid;
+	border-width: 18px;
+	border-color: #e6e6e6;
 	height: auto;
 	width: 50%;
 }
